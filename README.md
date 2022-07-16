@@ -10,9 +10,9 @@ nossa lista de array de campos para os dtos com base em consultas nativas em um 
 Confesso que me tira a paz ter que declarar cada campo versus o seu indice de forma manual.
 Diante desta realidade em nossos projetos, eu resolvi estudar algumas alternativas de automação e
 encontrei um recurso super poderoso no hibernate denominado de Tuple.
-Tuples criar uma lista de elementos nomeados de acordo com o alias correspondente ao atributo do seu dto,
-logo criamos um mecanimos de interação destes elementos e instanciamos nossos objetos e setamos os valores
-atráves de um recurso do Spring conhecido como  `PropertyAccessor` baseado no conceito de `Mutations`.
+Tuples cria uma lista de elementos nomeados de acordo com o alias correspondente ao atributo do seu dto,
+logo criamos um mecanimo de interação destes elementos e instanciamos nossos objetos e setamos os valores
+atráves de um recurso do Spring conhecido como `PropertyAccessor` baseado no conceito de `Mutations`.
 
 Você pode adaptar a nomenclatura dos componentes e aplicar o uso de Herança e Generics para deixar mais aderente ao teu projeto.
 
