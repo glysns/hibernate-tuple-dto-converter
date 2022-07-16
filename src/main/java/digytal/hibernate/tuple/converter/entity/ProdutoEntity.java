@@ -26,5 +26,11 @@ public class ProdutoEntity {
         return id;
     }
 
+    public void setMarca(Integer marca) {
+        this.marca = marca;
+    }
 
+    public Integer getMarca() {
+        return marca;
+    }
 }
